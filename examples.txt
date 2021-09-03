@@ -1,0 +1,32 @@
+------ USER EXAMPLES
+{
+    "username": "snoopy",
+    "password": "woodstock"
+}
+
+
+------ ENTRY EXAMPLES
+Python Example
+# truthyValue if condition else falseyValue
+num = 1
+evalute_num = 'even' if (n % 2 != 0) else 'odd'
+print(evalute_num)
+{
+    "author": "auman",
+    "language": "python",
+    "title": "Python Ternary",
+    "code": "# truthyValue if condition else falseyValue \n num = 1 \n evalute_num = 'even' if (n % 2 == 0) else 'odd' \n print(evalute_num)"
+}
+
+
+JavaScript Example
+// condition ? truthyValue : falseyValue
+const num = 1
+const evaluteNum = (n % 2 == 0) ? 'even' : 'odd'
+console.log(evaluteNum);
+{
+    "author": "auman",
+    "language": "javascript",
+    "title": "JavaScript Ternary",
+    "code": "// condition ? truthyValue : falseyValue \n const num = 1; \n const evaluteNum = (n % 2 == 0) ? 'even' : 'odd' \n console.log(evaluteNum);"
+}
